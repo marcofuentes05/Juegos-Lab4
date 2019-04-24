@@ -134,7 +134,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_Jump = true;
             }
-
         }
 
 

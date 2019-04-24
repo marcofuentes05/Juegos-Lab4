@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CanvasScript : MonoBehaviour
@@ -16,5 +17,10 @@ public class CanvasScript : MonoBehaviour
     void Update()
     {
         transform.Find("Contador").gameObject.GetComponent<Text>().text = "Total targets hit: "+manager.contador;
+    }
+
+    public void cambiarEscena(string nombre)
+    {
+        SceneManager.LoadScene(nombre);
     }
 }

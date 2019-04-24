@@ -18,12 +18,12 @@ public class Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Ray myRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray myRay = Camera.main.ViewportPointToRay(new Vector3 (0.5f,0.5f,0));
         RaycastHit hitInfo;
         Debug.DrawRay(transform.position, Vector3.forward, Color.blue, 30);
         if (Input.GetMouseButtonDown(0))
         {
-            if (Physics.Raycast(myRay, out hitInfo))
+            if (Physics.Raycast(myRay, out hitInfo,Mathf.Infinity))
             {
                 if (hitInfo.collider.gameObject.CompareTag("white"))
                 {

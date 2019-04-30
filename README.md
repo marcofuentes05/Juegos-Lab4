@@ -1,3 +1,14 @@
+#Laboratorio 5 de Juegos
+
+Este laboratorio usa el laboratorio anterior como base. Los efectos de sonido están colocados en la escena ```Shooter```
+
+Los efectos agregados son: disparos, sonido metalico al hacer que una moneda caiga al suelo, y un sonido de victoria cuando se eliminan 16 monedas.
+
+Musica de fondo de [Overwatch](https://www.youtube.com/watch?v=3wc9vZzY72g)
+
+El slider para controlar el volumen se encuentra en el menu de pausa (que a vaces aparece defectuoso, ver descripción abajo)
+
+
 # Laboratorio 4 de Juegos
 
 En este laboratorio se muestra el uso de rayos de la pantalla para detectar colisiones con objetos. Consta de 3 escenas: Menú principal, Shooter y Test

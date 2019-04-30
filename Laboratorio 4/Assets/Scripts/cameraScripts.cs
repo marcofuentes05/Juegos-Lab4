@@ -21,7 +21,7 @@ public class cameraScripts : MonoBehaviour
                 resume();
             }
             else {
-                pause();
+                pause(); 
             }
                 
         }

@@ -20,6 +20,7 @@ public class PistaScript : MonoBehaviour
     {
         if (collision.collider.gameObject.CompareTag("white"))
         {
+            gameObject.GetComponent<AudioSource>().Play();
             Destroy(collision.collider.gameObject);
         }
     }

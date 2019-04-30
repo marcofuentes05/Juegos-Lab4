@@ -20,7 +20,10 @@ public class cameraScripts : MonoBehaviour
             {
                 resume();
             }
-            else pause();
+            else {
+                pause();
+            }
+                
         }
     }
     public void resume()
